@@ -1,0 +1,45 @@
+body {
+    font-family: 'Bitter', serif;
+    text-align: center;
+    margin: 0;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 15% 20% auto;
+    grid-template-columns: 100%;
+    grid-template-areas:  "title"
+                            "main";
+}
+
+#title {
+    grid-area: title;
+    font-size: 3em;
+}
+
+.links {
+    grid-area: main;
+    font-size: 2em;
+    letter-spacing: 2em;
+    display: block;
+    color: rgb(81, 196, 159);
+}
+
+#about {
+    grid-area: main;
+    text-align: center;
+    color: rgb(81, 196, 159);
+}
+
+#contact {
+    grid-area: main;
+    text-align: center;
+    color: rgb(81, 196, 159);
+}
+
+#skills {
+    grid-area: main;
+    display: inline-block;
+    font-size: 2em;
+    color: rgb(81, 196, 159);
+}
+
+
